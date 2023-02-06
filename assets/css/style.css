@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #009cea;
+  background: #ae48e9;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #14b1ff;
+  background: #8226b8;
   color: #fff;
 }
 
@@ -132,7 +132,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #009cea;
+  color: #ae48e9;
 }
 
 /*--------------------------------------------------------------
@@ -181,7 +181,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #009cea;
+  color: #ae48e9;
 }
 
 .navbar .dropdown ul {
@@ -1656,7 +1656,7 @@ section {
   color: #364146;
 }
 .iconbtn {
-  background: #009cea;
+  background: #ae48e9;
   border: none; /* Remove borders */
   color: white; /* White text */
   padding: 12px 16px; /* Some padding */
@@ -1666,6 +1666,46 @@ section {
   cursor: pointer; /* Mouse pointer on hover */  
 }
 .iconbtn:hover {
-  background: #14b1ff;
+  background: #8226b8;
   color: #fff;
+}
+.navbar2 {
+  padding: 0;
+}
+
+.navbar2 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar2 li {
+  position: relative;
+}
+
+.navbar2 a,
+.navbar2 a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #7b909a;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar2 a i,
+.navbar2 a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar2 a:hover,
+.navbar2 li:hover>a {
+  color: #ae48e9;
 }
